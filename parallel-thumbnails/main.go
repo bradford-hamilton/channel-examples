@@ -4,9 +4,9 @@ import (
 	"log"
 	"os"
 	"sync"
-
-	"gopl.io/tree/master/ch8/thumbnail"
 )
+
+// thumbnail comes from "gopl.io/tree/master/ch8/thumbnail"
 
 // makeThumbnailsSynchronously original makes thumbnails of specified files - it does this synchronously
 // so we're going to take it and use concurrency to process each file
